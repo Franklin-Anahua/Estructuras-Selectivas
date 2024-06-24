@@ -1,0 +1,19 @@
+2. Convertir una cantidad cualquiera de soles a dólares.
+
+#include <iostream>
+using namespace std;
+
+double convertirSolesADolares(double soles, double tipoCambio) {
+    return soles / tipoCambio;
+}
+
+int main() {
+    double soles = 1000.0;
+    double tipoCambio = 3.76; // Tipo de cambio actual
+
+    double dolares = convertirSolesADolares(soles, tipoCambio);
+
+    cout << soles << " soles son equivalentes a " << dolares << " dólares." << endl;
+
+    return 0;
+}

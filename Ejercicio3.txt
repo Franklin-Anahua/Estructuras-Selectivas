@@ -1,0 +1,20 @@
+3. Determinar el área de un pentágono.
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+double calcularAreaPentagono(double lado) {
+    return 0.25 * sqrt(5 * (5 + 2 * sqrt(5))) * lado * lado;
+}
+
+int main() {
+    double lado;
+    cout << "Introduce la longitud de un lado del pentágono: ";
+    cin >> lado;
+
+    double area = calcularAreaPentagono(lado);
+    cout << "El área del pentágono es: " << area << endl;
+
+    return 0;
+}

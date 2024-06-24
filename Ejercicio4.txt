@@ -1,0 +1,13 @@
+4. Suponga que un individuo desea invertir su capital en un banco y desea saber cuánto dinero ganar después de un mes si el banco paga a razón de 2% mensual.
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double capital = 1000;
+    double tasa_interes = 0.02;
+    double dinero_ganado = capital * tasa_interes;
+    cout << "Después de un mes, ganarás: $" << dinero_ganado << endl;
+    return 0;
+}
