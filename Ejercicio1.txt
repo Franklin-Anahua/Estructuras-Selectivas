@@ -1,0 +1,15 @@
+1. Determinar el perímetro de un rectángulo.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    float largo, ancho, perimetro;
+    cout << "Ingrese el largo del rectángulo: ";
+    cin >> largo;
+    cout << "Ingrese el ancho del rectángulo: ";
+    cin >> ancho;
+    perimetro = 2 * (largo + ancho);
+    cout << "El perímetro del rectángulo es: " << perimetro << endl;
+    return 0;
+}
